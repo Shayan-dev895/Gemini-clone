@@ -4,7 +4,7 @@ import { Url } from "./assets/Constants";
 import History from "./Components/History";
 import Chatlist from "./Components/Chatlist";
 import ThemeToggle, { themes } from "./Themetoggle"; // ← themes bhi yahan se aa raha hai
-import InputBar from "./InputBar";
+import InputBar from "./Inputbar";
 
 export default function App() {
   const [question, askquestion] = useState("");
